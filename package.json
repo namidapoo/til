@@ -1,6 +1,10 @@
 {
   "name": "til",
   "private": true,
+  "scripts": {
+    "dev": "make preview",
+    "format": "prettier --write ."
+  },
   "devDependencies": {
     "prettier": "^3.5.3"
   }
